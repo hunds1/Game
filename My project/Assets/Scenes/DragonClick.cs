@@ -1,0 +1,43 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class DragonClick : MonoBehaviour
+{
+    // Start is called before the first frame update
+     [Header("Set in Inspector")]
+    public GameObject dragonEggPrefab;
+    public float speed = 1;
+    public float timeBetweenEggDrops = 1f;
+    public float leftRightDistance = 10f;
+    public float chanceDirections = 0.1f;
+
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Vector3 pos = transform.position; //1
+        pos.x += speed * Time.deltaTime; //2
+        transform.position = pos; //3
+
+         if (pos.x < -leftRightDistance) //1
+        {
+            speed = Mathf.Abs(speed);
+        }
+        else if (pos.x > leftRightDistance) //2
+        {
+            speed = -Mathf.Abs(speed);
+        }
+    }
+     private void FixedUpdate()
+    {
+        if (Random.value < chanceDirections)
+        {
+                speed *= -1;
+        }
+    }
+}

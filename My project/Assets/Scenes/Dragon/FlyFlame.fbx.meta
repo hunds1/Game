@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3780e576683cf51449f8560650149fbb
+guid: 9200a2fd28bd6b7498fe9436d7b1ff86
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -246,7 +246,7 @@ ModelImporter:
     400238: WingThumb01_L
     400240: WingThumb01_R
     4300000: Dragon
-    7400000: Fly Forward
+    7400000: Fly Flame Attack
     9500000: //RootNode
     13700000: Dragon
   externalObjects: {}
@@ -278,10 +278,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Fly Forward
+      name: Fly Flame Attack
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 30
+      lastFrame: 90
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
