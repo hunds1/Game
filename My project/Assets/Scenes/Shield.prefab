@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6167203697343300356}
   - component: {fileID: 5430459119736355499}
   - component: {fileID: 5234148858992083732}
+  - component: {fileID: -4486035472749266471}
   m_Layer: 0
   m_Name: Shield
   m_TagString: Untagged
@@ -133,3 +134,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-4486035472749266471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2347316298783620616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 925adcc4daabae041b5772717dbb369e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
